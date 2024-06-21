@@ -1,5 +1,30 @@
 ## Hi there 👋
 
+
+## Setup for production
+```bash
+$ mkdir RentRipple && cd RentRipple
+$ git clone https://github.com/RentRipple/RentRipple-Backend.git
+$ git clone https://github.com/RentRipple/RentRipple-Frontend.git
+$ cd RentRipple-Backend
+$ docker-compose up --build -d
+```
+
+## Run locally
+```bash
+Run mongodb and redis locally first on default ports.
+```
+```bash
+$ mkdir RentRipple && cd RentRipple
+$ git clone https://github.com/RentRipple/RentRipple-Backend.git
+$ git clone https://github.com/RentRipple/RentRipple-Frontend.git
+$ cd RentRipple-Backend
+$ npm run dev
+$ cd RentRipple-Frontend
+$ npm start
+```
+
+
 <!--
 
 **Here are some ideas to get you started:**
